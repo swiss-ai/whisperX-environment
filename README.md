@@ -18,11 +18,7 @@ make whisperx
 source .venv-whisperx/bin/activate
 ```
 
-### 2. Modifi
-First, you must register the environment definition file with the CSCS Container Engine with ngc-24.05. We use uv to create the virtual environment.
-
-
-### 3. Usage Examples (test.py)
+### 2. Usage Examples
 For a complete Python script example of how to use the whisperx model refer to test.py. You can run this test script inside the container:
 
 ```bash
