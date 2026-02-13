@@ -1,0 +1,15 @@
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+
+# --- Other Safe Utilities ---
+pandas
+requests
+tqdm
+
+h11
+httpcore
+httpx
+sniffio
+anyio
+omegaconf

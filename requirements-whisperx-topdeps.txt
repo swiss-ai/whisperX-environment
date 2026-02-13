@@ -1,0 +1,50 @@
+# --- Core Application ---
+git+https://github.com/m-bain/whisperx.git
+
+# --- Compute Backends (GH200 Optimized) ---
+faster-whisper>=1.0.0
+ctranslate2>=4.3.0
+
+# --- Audio Processing ---
+av
+librosa
+soundfile
+ffmpeg-python
+
+# --- AI & NLP ---
+nltk
+transformers
+pyannote.audio==3.1.1
+pyannote.core
+pyannote.database
+pyannote.pipeline 
+pyannote.metrics
+optuna
+colorlog
+asteroid-filterbanks
+torch-audiomentations
+julius
+torch-pitch-shift
+primePy
+semver
+
+# --- Hugging Face Core ---
+transformers==4.30.2
+tokenizers==0.13.3
+huggingface-hub
+safetensors
+sentencepiece
+regex
+pyyaml
+accelerate
+
+# --- Utilities ---
+tqdm
+platformdirs
+pandas
+numpy<2.0.0
+
+lightning
+torchmetrics
+pytorch_lightning
+pytorch_metric_learning
