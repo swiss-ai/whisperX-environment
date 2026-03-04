@@ -4,10 +4,6 @@ This repository contains the pipeline for processing the Interleaving Audio Data
 
 It utilizes the **CSCS Container Engine** with a custom Environment Definition File (EDF) based on the NVIDIA NGC PyTorch 24.05 image.
 
-## Prerequisites
-
-* The  file present in this directory.
-
 ## Quick Start
 
 ### 1. Setup Environment
